@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<head class="container">
+	<h1 style="color:black">Sports Electives</h1>
+ </head>
+<body>
+    <img class="mx-auto d-block"class="img-fluid" src="https://ec.europa.eu/eurostat/documents/6921402/9104237/Shutterstock_Lisa_Kolbasa.png/f988f8b6-4138-4a91-9761-885bacab0ce2?t=1533725002972"></img> 
+      <p class="jumbotron">Sports are a crucial part of a student's growth and development. They help in the development of mental health and physical fitness of the body. Through participation in sports and games, a student gains various skills, experience and confidence that are helpful for developing their personality.</p>
+      <div class="container">
+          <h2>You can choose from the following:</h2>
+          <div class="list-group">
+            <a href="https://simple.wikipedia.org/wiki/Chess" class="list-group-item list-group-item-action">Chess</a>
+            <a href="https://en.wikipedia.org/wiki/Carrom" class="list-group-item list-group-item-action">Carrom</a>
+            <a href="https://simple.wikipedia.org/wiki/Table_tennis" class="list-group-item list-group-item-action">Table Tennis</a>
+            <a href="https://simple.wikipedia.org/wiki/Tennis" class="list-group-item list-group-item-action">Tennis</a>
+            <a href="https://simple.wikipedia.org/wiki/Badminton" class="list-group-item list-group-item-action">Badminton</a>
+            <a href="https://simple.wikipedia.org/wiki/Football" class="list-group-item list-group-item-action">Football</a>
+          </div>
+          <form >
+               <h3>Register Below:</h3>
+                  <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" name="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-Mail:</label>
+                        <input type="text" class="form-control" id="email" name="E-Mail">
+                    </div>    
+                    <div class="form-group">
+                        <label for="mobno">Mobile Number:</label>
+                        <input type="text" class="form-control" id="mobo" name="Mobile Number">
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" class="custom-control-input" id="customRadio" name="example" value="customEx">
+                        <label class="custom-control-label" for="customRadio">Indoor Sports</label>
+                        <select name="indoor" class="custom-select">
+                            <option selected></option>
+                            <option value="chess">Chess</option>
+                            <option value="Carrom">Carrom</option>
+                            <option value="tabletennis">Table Tennis</option>
+                          </select>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" class="custom-control-input" id="customRadio2" name="example" value="customEx">
+                        <label class="custom-control-label" for="customRadio2">Outdoor Sports</label>
+                        <select name="outdoor" class="custom-select">
+                            <option selected></option>
+                            <option value="tennis">Tennis</option>
+                            <option value="badminton">Badminton</option>
+                            <option value="football">Football</option>
+                          </select>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                        <label class="custom-control-label" for="customCheck">Check this only if you are a student at AISSMS IOIT</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+      
+
+    </body>
